@@ -14,18 +14,18 @@ export default function Contacts(){
                     alt=" "
                     className="flex self-center py-10 animate-bounce rotate-45"
                 />
-                <div className="grid grid-cols items-center text-center xl:text-left gap-5 px-0 xl:px-10 max-w-xl text-sm lg:text-lg">
+                <div className="grid grid-cols items-center text-center xl:text-left gap-5 px-0 xl:px-10 max-w-xl text-sm lg:text-2xl">
                 <p className="text-white">Головна організаторка: 
-                    <span className = {`${press_start.className} text-hack-green`} > Таня Панчук</span> 
+                    <span className = {`lg:${press_start.className} text-hack-green hover:scale-102 duration-500`} > Таня Панчук</span> 
                 </p>
                 <p className="text-white">E-mail: 
-                    <span className = {`${press_start.className} text-hack-green text-xs lg:text-md xl:text-lg`} > best.hackathon.partnership@gmail.com</span> 
+                    <span className = {`lg:${press_start.className} text-hack-green hover:scale-102 duration-500`} > best.hackathon.partnership@gmail.com</span> 
                 </p>
                 <p className="text-white">Тел: 
-                    <span className = {`${press_start.className} text-hack-green`} > +380 97 807 73 97</span> 
+                    <span className = {`lg:${press_start.className} text-hack-green hover:scale-102 duration-500`} > +380 97 807 73 97</span> 
                 </p>
                 <p className="text-white">Адреса: 
-                    <span className = {`${press_start.className} text-hack-green`} > Національний університет "Львівська політехніка"</span> 
+                    <span className = {`lg:${press_start.className} text-hack-green hover:scale-102 duration-500`} > Національний університет "Львівська політехніка"</span> 
                 </p>
                 </div>
             </div>
