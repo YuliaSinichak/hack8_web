@@ -7,7 +7,7 @@ const partnersData = [
     alt: "Ukeess",
   },
   {
-    imgSrc: "/partners/SiTime.svg",
+    imgSrc: "/partners/SiTimeLogo.svg",
     alt: "SiTime",
   },
   {

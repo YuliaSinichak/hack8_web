@@ -3,52 +3,52 @@ import Image from "next/image";
 
 const partnersData = [
   {
-    imgSrc: "/partners/Ukeess.svg",
-    alt: "Ukeess",
+    imgSrc: "/partners/LionWood.svg",
+    alt: "LionWood",
   },
   {
-    imgSrc: "/partners/SiTime.svg",
-    alt: "SiTime",
+    imgSrc: "/partners/VRCube.svg",
+    alt: "VRCube",
   },
   {
-    imgSrc: "/partners/Polytechnic.svg",
-    alt: "Polytechnic",
+    imgSrc: "/partners/Harvest.svg",
+    alt: "Harvest",
   },
   {
-    imgSrc: "/partners/Leobit.svg",
-    alt: "Leobit",
+    imgSrc: "/partners/Vidro.svg",
+    alt: "Vidro",
   },
   {
-    imgSrc: "/partners/GlobalLogic.svg",
-    alt: "GlobalLogic",
+    imgSrc: "/partners/Lucas.svg",
+    alt: "Lucas",
   },
   {
-    imgSrc: "/partners/GlobalLogic.svg",
-    alt: "GlobalLogic",
+    imgSrc: "/partners/IloveKebab.svg",
+    alt: "IloveKebab",
   },
   {
-    imgSrc: "/partners/Ukeess.svg",
-    alt: "Ukeess",
+    imgSrc: "/partners/Chipsters.svg",
+    alt: "Chipsters",
   },
   {
-    imgSrc: "/partners/SiTime.svg",
-    alt: "SiTime",
+    imgSrc: "/partners/CopyBoom.svg",
+    alt: "CopyBoom",
   },
   {
-    imgSrc: "/partners/Polytechnic.svg",
-    alt: "Polytechnic",
+    imgSrc: "/partners/Hobby.svg",
+    alt: "HobbyMonster",
   },
   {
-    imgSrc: "/partners/Leobit.svg",
-    alt: "Leobit",
+    imgSrc: "/partners/EcoSfera.svg",
+    alt: "EcoSfera",
   },
   {
-    imgSrc: "/partners/GlobalLogic.svg",
-    alt: "GlobalLogic",
+    imgSrc: "/partners/Salalat.svg",
+    alt: "Salalat",
   },
   {
-    imgSrc: "/partners/GlobalLogic.svg",
-    alt: "GlobalLogic",
+    imgSrc: "/partners/Nonstop.svg",
+    alt: "Nonstop",
   },
 ];
 
