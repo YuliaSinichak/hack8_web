@@ -22,7 +22,7 @@ export default function Contacts(){
                     <span className = {`${press_start.className} text-hack-green text-xs lg:text-md xl:text-lg`} > best.hackathon.partnership@gmail.com</span> 
                 </p>
                 <p className="text-white">Тел: 
-                    <span className = {`${press_start.className} text-hack-green`} > +380 50 889 58 99</span> 
+                    <span className = {`${press_start.className} text-hack-green`} > +380 97 807 73 97</span> 
                 </p>
                 <p className="text-white">Адреса: 
                     <span className = {`${press_start.className} text-hack-green`} > Національний університет "Львівська політехніка"</span> 

@@ -4,9 +4,9 @@ import Image from "next/image"
 export default function AboutHack(){
     return(
         <section className= "min-h-screen max-w-9xl w-full flex flex-col items-center xl:items-start my-10 lg:my-20 px-5 lg:px-20 relative" id='about'>
-            <h1 className={`${press_start.className} text-hack-green text-center text-xl lg:text-4xl py-10`}>BEST::HACKathon 2024</h1>
+            <h1 className={`${press_start.className} text-hack-green text-center text-xl lg:text-4xl py-10`}>BEST::HACKath0n 2024</h1>
             <div className="flex flex-row">
-                <div className="grid grid-flow-row gap-10 max-w-lg items-center relative">
+                <div className="grid grid-flow-row gap-5 lg:gap-10 max-w-lg items-center relative">
                     <Image
                         src="/Line.png"
                         width={500}

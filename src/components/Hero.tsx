@@ -33,7 +33,7 @@ export default function Hero(){
     const handleScrollClick = useSmoothScrollTo();
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const redirectToSite = () => {
-      window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+      window.location.href = 'https://t.me/Hackath0n8_bot';
     };
 
     return(
@@ -88,9 +88,9 @@ export default function Hero(){
                 </div>
                 <div className={`relative border border-white bg-black rounded-xl p-3 md:px-5 justify-center flex`}>
                     <button
-                        className={`${press_start.className} bg-hack-dark-green rounded-xl text-hack-green text-lg px-16 md:px-20 py-3 w-full flex flex-row gap-2 items-center justify-center`}
+                        className={`${press_start.className} bg-hack-dark-green rounded-xl text-hack-green text-lg px-16 md:px-20 py-3 w-full flex flex-row gap-2 items-center justify-center hover:scale-105 duration-500`}
                      >
-                        Geek version
+                        Comming soon...
                     </button>
                 </div>
             </div>

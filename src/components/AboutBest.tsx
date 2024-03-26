@@ -12,7 +12,7 @@ export default function AboutBest(){
                 <div className=" bg-hack-dark-green rounded-xl xl:rounded-l-0 flex flex-col gap-5 p-8 px-5 lg:px-10 text-sm lg:text-lg">
                     <p>
                         <span className="text-hack-green">BEST (Board of European Students of Technology) або Рада студентів технічних університетів</span> – 
-                        неприбуткова, неполітична та нерелігійна організація, яка представлена у 86 осередках 
+                        неприбуткова організація, яка представлена у 86 осередках 
                         30 країн світу. З 1989 року BEST забезпечує обмін знаннями та співробітництво між студентами,
                         компаніями та університетами на теренах Європи.
                     </p>

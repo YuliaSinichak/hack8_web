@@ -9,7 +9,7 @@ export default function Theme(){
             <div className="hidden lg:flex absolute z-0">
                 <CodeRun />
             </div>
-            <div className="flex flex-col lg:flex-row gap-10 mx-0 mb-10 lg:mx-20 lg:absolute -left-40 xl:-left-48 top-12 z-10 w-full items-center lg:items-start justify-center lg:justify-end">
+            <div className="flex flex-col lg:flex-row gap-10 mx-5 mb-10 lg:mx-20 lg:absolute -left-40 xl:-left-48 top-12 z-10 w-full items-center lg:items-start justify-center lg:justify-end">
                 <div className={`${press_start.className} text-center lg:text-left text-xl lg:text-3xl text-hack-green max-w-md gap-3`}>
                         <p>
                         Тема:
