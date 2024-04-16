@@ -37,8 +37,8 @@ export default function Hero(){
     };
 
     return(
-        <section className="relative min-h-screen w-full flex items-center justify-center" >
-            <div className="grid gap-5 items-center justify-center z-10 px-8">
+        <section className="relative min-h-screen w-full flex items-start justify-center pt-32" >
+            <div className="grid gap-5 justify-center z-10 px-8">
                 
                 <div className={`relative border border-white bg-black rounded-xl p-3 md:px-5 justify-center flex`}>
                     <Image
@@ -56,15 +56,15 @@ export default function Hero(){
                         className="absolute hidden md:flex -right-28 top-48 z-0 "
                     />
                     <button
-                        className={`${press_start.className} bg-hack-dark-green rounded-xl text-hack-green text-lg px-16 md:px-20 py-3 w-full flex flex-row gap-2 items-center justify-center  hover:scale-105 duration-500`}
+                        className={`${press_start.className} text-white text-lg px-16 md:px-20 py-3 w-full flex flex-row gap-2 items-center justify-center  hover:scale-105 duration-500`}
                         onClick={redirectToSite}
                      >
                         Реєстрація_
                         <span>
                         <Image
                             src="/smallArrow.svg"
-                            width={40}
-                            height={40}
+                            width={25}
+                            height={25}
                             alt=" "
                             className=""
                         />
@@ -80,7 +80,7 @@ export default function Hero(){
                 </div>
                 <div className={`relative border border-white bg-black rounded-xl p-3 md:px-5 justify-center flex `}>
                     <button
-                        className={`${press_start.className} bg-hack-dark-green rounded-xl text-hack-green text-lg px-16 md:px-20 py-3 w-full flex flex-row gap-2 items-center justify-center hover:scale-105 duration-500 `}
+                        className={`${press_start.className} text-white text-lg px-16 md:px-20 py-3 w-full flex flex-row gap-2 items-center justify-center hover:scale-105 duration-500 `}
                         onClick={() => handleScrollClick("#contacts")}
                     >
                         Стати партнером
@@ -88,7 +88,7 @@ export default function Hero(){
                 </div>
                 <div className={`relative border border-white bg-black rounded-xl p-3 md:px-5 justify-center flex`}>
                     <button
-                        className={`${press_start.className} bg-hack-dark-green rounded-xl text-hack-green text-lg px-16 md:px-20 py-3 w-full flex flex-row gap-2 items-center justify-center hover:scale-105 duration-500`}
+                        className={`${press_start.className} text-white text-lg px-16 md:px-20 py-3 w-full flex flex-row gap-2 items-center justify-center hover:scale-105 duration-500`}
                      >
                         Comming soon...
                     </button>
@@ -102,55 +102,58 @@ export default function Hero(){
                 className="absolute -top-32 w-full self-center pointer-events-none z-0"
             />
             <Image
+                src="/Purple Ellipse.png"
+                width={1200}
+                height={1200}
+                alt=" "
+                className="absolute -top-32 self-center pointer-events-none z-0"
+            />
+            <Image
+                src="/Bubbles.png"
+                width={400}
+                height={400}
+                alt=" "
+                className="absolute -top-20 self-center pointer-events-none z-10 levitate-bubbles2"
+            />
+            <Image
                 src="/BubblesPart1.png"
                 width={500}
                 height={500}
                 alt=" "
-                className="absolute blur-lg xl:blur-none opacity-30 lg:opacity-100 -top-32 right-32 levitate-bubbles1 z-0"
+                className="absolute blur-lg xl:blur-none opacity-30 -top-32 right-32 levitate-bubbles1 z-0"
             />
             <Image
                 src="/BubblesPart2.png"
                 width={500}
                 height={500}
                 alt=" "
-                className="absolute blur-xs xl:blur-none  opacity-30 lg:opacity-100 -top-32 right-32 levitate-bubbles2 z-0"
+                className="absolute blur-xs xl:blur-none  opacity-30 -top-32 right-32 levitate-bubbles2 z-0"
             />
             <Image
                 src="/BubblesPart1.png"
                 width={500}
                 height={500}
                 alt=" "
-                className="absolute blur-lg xl:blur-none opacity-30 lg:opacity-100 bottom-48 left-4 levitate-bubbles1 z-0"
+                className="absolute blur-lg xl:blur-none opacity-30 bottom-48 left-4 levitate-bubbles1 z-0"
             />
             <Image
                 src="/BubblesPart2.png"
                 width={500}
                 height={500}
                 alt=" "
-                className="absolute blur-xs xl:blur-none opacity-30 lg:opacity-100 bottom-48 left-8 levitate-bubbles2 z-0"
+                className="absolute blur-xs xl:blur-none opacity-30  bottom-48 left-8 levitate-bubbles2 z-0"
             />
             <Image
                 src="/Arrow.svg"
-                width={30}
-                height={30}
+                width={40}
+                height={40}
                 alt=" "
-                className="absolute bottom-24 animate-bounce z-20"
+                className="absolute bottom-40 animate-bounce z-20"
                 onClick={() => handleScrollClick("#about")}
             />
-            <Image
-                src="/BlackBubbles.svg"
-                width={350}
-                height={350}
-                alt=" "
-                className="absolute hidden md:flex bottom-12 -left-24 levitate-bubbles2 z-0"
-            />
-            <Image
-                src="/BlackBubbles.svg"
-                width={250}
-                height={250}
-                alt=" "
-                className="absolute hidden md:flex rotate-90 top-12 -right-16 levitate-bubbles1 z-0"
-            />
+            <div className="hidden lg:flex absolute bottom-20 right-0">
+            <CodeRunReverse />
+            </div>
         </section>
     )
 }

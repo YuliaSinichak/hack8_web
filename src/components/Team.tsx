@@ -18,7 +18,7 @@ export default function Team() {
     const [curr, setCurr] = useState(1);
 
     return (
-        <div className="min-h-screen w-full py-20">
+        <div className="min-h-screen w-full py-20" id='team'>
             <div className='absolute'>
                 <CodeRun />
             </div>
@@ -77,21 +77,21 @@ export default function Team() {
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="/team/Tetiana.png" alt="tania" className='rounded-xl'/>
                         <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Main Organizer</h1>
-                        <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Таня Boss</h1>
+                        <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Тетяна Панчук</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="/team/Vanya.png" alt="vanya" className='rounded-xl'/>
                         <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Human Resourses</h1>
-                        <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Чарка ейчарка</h1>
+                        <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Іванка Карабан</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="/team/Rostik.png" alt="rostik" className='rounded-xl'/>
                         <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Logist</h1>
-                        <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Ростик Чорний Гриб</h1>
+                        <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Ростислав Мінчак</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
@@ -105,14 +105,14 @@ export default function Team() {
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="/team/Yulik.png" alt="yulik" className='rounded-xl'/>
                         <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>IT Responsible</h1>
-                        <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Роман Фігель</h1>
+                        <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Синичак Юлія</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="/team/Illia.png" alt="illia" className='rounded-xl'/>
                         <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Found Raising</h1>
-                        <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Ілля Вода</h1>
+                        <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Ілля Шестак</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
@@ -139,15 +139,15 @@ export default function Team() {
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="/team/Zakhar.png" alt="zakhar" className='rounded-xl'/>
-                        <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Father</h1>
-                        <h1 className={`${press_start.className} text-hack-green text-lg lg:text-x text-center `}>Зохан</h1>
+                        <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Mentor</h1>
+                        <h1 className={`${press_start.className} text-hack-green text-lg lg:text-x text-center `}>Захар Підлісецький</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="/team/Bodya.png" alt="bodya" className='rounded-xl'/>
-                        <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Father</h1>
-                        <h1 className={`${press_start.className} text-hack-green text-lg lg:text-x text-center `}>Одя Аран</h1>
+                        <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Mentor</h1>
+                        <h1 className={`${press_start.className} text-hack-green text-lg lg:text-x text-center `}>Богдан Баран</h1>
                     </div>
                 </SwiperSlide>
                 

@@ -20,7 +20,7 @@ export default function Portrait(){
                 className="flex xl:hidden absolute blur-xs xl:blur-none top-24 opacity-30 self-center levitate-bubbles2 z-0 w-full"
             />
             
-            <div className="flex flex-col xl:flex-row px-20 gap-5 xl:gap-16 items-center xl:items-start z-10">
+            <div className="flex flex-col xl:flex-row px-10 lg:px-20 gap-5 xl:gap-16 items-center xl:items-start z-10">
                 <h1 className={`${press_start.className} text-3xl max-w-xs xl:ml-80 text-center xl:text-left`}>Портрет учасника</h1>
                 <div className=" xl:-rotate-90">
                 <Image

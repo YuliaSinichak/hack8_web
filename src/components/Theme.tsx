@@ -5,11 +5,11 @@ import CodeRunReverse from "./CodeRunEffectReverse"
 
 export default function Theme(){
     return(
-        <section className="relative w-full min-h-screen z-10">
+        <section className="relative w-full min-h-screen z-10" id='theme'>
             <div className="hidden lg:flex absolute z-0">
                 <CodeRun />
             </div>
-            <div className="flex flex-col lg:flex-row gap-10 mx-5 mb-10 lg:mx-20 lg:absolute -left-40 xl:-left-48 top-12 z-10 w-full items-center lg:items-start justify-center lg:justify-end">
+            <div className="flex flex-col lg:flex-row gap-10 mb-10 lg:mx-20 lg:absolute -left-40 xl:-left-48 top-12 z-10 w-full items-center lg:items-start justify-center lg:justify-end">
                 <div className={`${press_start.className} text-center lg:text-left text-xl lg:text-3xl text-hack-green max-w-md gap-3`}>
                         <p>
                         Тема:
@@ -18,8 +18,8 @@ export default function Theme(){
                          Military (військова)
                         </p>
                 </div>
-                <div className="border bg-black rounded-xl p-3 items-center max-w-sm mt-3 lg:mt-10 relative">
-                    <div className=" bg-hack-dark-green rounded-xl p-5 py-12 text-center items-center text-md hover:scale-102 duration-500 flex flex-col">
+                <div className="flex border bg-black rounded-xl p-3 items-center max-w-sm mt-3 lg:mt-10 lg:relative">
+                    <div className=" bg-hack-dark-green text-white rounded-xl lg:p-5 py-12 text-center items-center text-md hover:scale-102 duration-500 flex flex-col">
                             <p className="text-hack-green">
                             На меті учасників – створення MVP 
                             </p>

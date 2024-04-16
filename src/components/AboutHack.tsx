@@ -43,8 +43,8 @@ export default function AboutHack(){
                         className="hidden lg:flex absolute levitate-bubbles2 -bottom-8 -right-24 z-40"
                     />
                     <div className="border rounded-xl bg-black px-10 p-3 z-10">
-                        <div className="rounded-xl bg-hack-dark-green p-5 text-center hover:scale-102 duration-500 text-sm lg:text-md">
-                        <span className="text-hack-green pr-1 relative">
+                        <div className="font-semibold p-5 text-center hover:scale-102 duration-500 text-sm lg:text-md">
+                        <span className="text-hack-green pr-1 texl-xl relative">
                             <Image
                                 src="/Arrow.svg"
                                 width={20}
@@ -59,25 +59,18 @@ export default function AboutHack(){
                             презентувати свій проект
                         </div>
                     </div>
-                    <Image
-                        src="/BenyaAbout.png"
-                        width={170}
-                        height={170}
-                        alt=" "
-                        className="hidden md:flex absolute top-8 -right-44 pointer-events-none levitate-bubbles1 z-40"
-                    />
                     <div className="border rounded-xl bg-black px-10 p-3 z-10">
-                        <div className="rounded-xl bg-hack-dark-green p-5 text-center hover:scale-102 duration-500 text-sm lg:text-md">
+                        <div className=" font-extrabold p-5 text-center hover:scale-102 duration-500 text-sm lg:text-xl">
                             11-12 травня
                         </div>
                     </div>
                     <div className="border rounded-xl bg-black px-10 p-3 z-10">
-                        <div className="rounded-xl bg-hack-dark-green p-5 text-center hover:scale-102 duration-500 text-sm lg:text-md">
+                        <div className=" font-extrabold p-5 text-center hover:scale-102 duration-500 text-sm lg:text-xl">
                             offline
                         </div>
                     </div>
                     <div className="border rounded-xl bg-black px-10 p-3 z-10">
-                        <div className="rounded-xl bg-hack-dark-green p-5 text-center hover:scale-102 duration-500 text-sm lg:text-md">
+                        <div className=" font-extrabold p-5 text-center hover:scale-102 duration-500 text-sm lg:text-xl">
                             15 команд (3-5 осіб)
                         </div>
                     </div>

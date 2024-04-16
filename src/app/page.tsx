@@ -17,6 +17,7 @@ export default function Home() {
       <AboutHack />
       <Theme />
       <AboutBest />
+      <Team />
       <Portrait />
       <PartnersSection />
       <Contacts />

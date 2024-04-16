@@ -16,16 +16,16 @@ type MenuItem = {
 
 const navigation: MenuItem[] = [
   {
-    name: "Про нас",
+    name: "Про проєкт",
     href: "#about",
   },
   {
-    name: "Пропозиції",
-    href: "#offers",
+    name: "Тема",
+    href: "#theme",
   },
   {
-    name: "Контакти",
-    href: "#contacts",
+    name: "Команда",
+    href: "#team",
   },
 ];
 
@@ -48,7 +48,7 @@ export default function Header() {
         className="logo cursor-pointer relative z-20 flex align-middle gap-3 md:top-0 top-[0.8vw]"
       >
         <Image
-          src="/HackLogoGreen.svg"
+          src="/HackLogo.svg"
           alt="logo"
           height={40}
           width={40}

@@ -4,9 +4,9 @@ import Image from "next/image"
 
 export default function Contacts(){
     return(
-        <section className="relative min-h-screen py-20 flex justify-center xl:justify-start w-full px-8 xl:px-20" id="contacts">
+        <section className="relative min-h-screen py-5 lg:py-20 flex justify-center xl:justify-start w-full px-8 xl:px-20 items-center" id="contacts">
             <div className="flex flex-col">
-                <h1 className={`${press_start.className} flex self-center xl:self-start text-hack-green px-0 xl:px-40 text-3xl`}>Контакти</h1>
+                <h1 className={`${press_start.className}  flex self-center xl:self-start text-hack-green px-0 xl:px-40 text-3xl`}>Контакти</h1>
                 <Image
                     src="/DrawArrow.svg"
                     width={70}
