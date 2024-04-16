@@ -11,14 +11,44 @@ import 'swiper/css/effect-coverflow';
 import { useState, useEffect } from 'react';
 import CodeRun from './CodeRunEffect';
 import CodeRunReverse from './CodeRunEffectReverse';
+import Image from 'next/image';
 
 export default function Gallery() {
     const [curr, setCurr] = useState(1);
 
     return (
-        <div className="min-h-screen w-full lg:my-20 py-20" id='team'>
+        <div className="min-h-screen relative w-full lg:my-20 py-20" id='team'>
             <h2 className={`${press_start.className} relative text-hack-green text-5xl z-10 text-center lg:text-end my-32 lg:mr-40`}>Галерея:</h2>
-            <div className='border-2 border-hack-green border-l-0 border-r-0 py-5'>
+            <div className='relative border-2 border-hack-green border-l-0 border-r-0 py-5'>
+            <Image
+                src="/BubbleDraw.png"
+                width={50}
+                height={50}
+                alt=" "
+                className="absolute levitate-bubbles2 left-96 -top-32"
+            />
+            <Image
+                src="/BubbleDraw.png"
+                width={40}
+                height={40}
+                alt=" " 
+                className="absolute levitate-bubbles2 left-80 -top-40"
+            />
+            <Image
+                src="/BubbleDraw.png"
+                width={50}
+                height={50}
+                alt=" "
+                className="absolute levitate-bubbles2 right-24 -top-32"
+            />
+            <Image
+                src="/BubbleDraw.png"
+                width={40}
+                height={40}
+                alt=" " 
+                className="absolute levitate-bubbles2 right-80 -top-20"
+            />
+                
             <Swiper
                 className='w-full flex items-center relative z-10'
                 autoHeight={true}
