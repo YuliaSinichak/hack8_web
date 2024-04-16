@@ -106,7 +106,7 @@ export default function Hero(){
                 width={1200}
                 height={1200}
                 alt=" "
-                className="absolute -top-32 self-center pointer-events-none z-0"
+                className="absolute -top-24 lg:-top-32 self-center pointer-events-none z-0"
             />
             <Image
                 src="/Bubbles.png"

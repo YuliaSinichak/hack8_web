@@ -18,7 +18,7 @@ export default function Gallery() {
 
     return (
         <div className="min-h-screen relative w-full lg:my-20 py-20" id='team'>
-            <h2 className={`${press_start.className} relative text-hack-green text-5xl z-10 text-center lg:text-end my-32 lg:mr-40`}>Галерея:</h2>
+            <h2 className={`${press_start.className} relative text-hack-green  text-4xl lg:text-5xl z-10 text-center lg:text-end my-20 lg:my-32 lg:mr-40`}>Галерея:</h2>
             <div className='relative border-2 border-hack-green border-l-0 border-r-0 py-5'>
             <Image
                 src="/BubbleDraw.png"

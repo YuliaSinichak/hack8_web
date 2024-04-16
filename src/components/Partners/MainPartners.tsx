@@ -55,14 +55,14 @@ export default function MainPartners() {
           alt=" "
           height={1000}
           width={1000}
-          className="absolute w-full -top-32 z-0 hidden lg:flex"
+          className="absolute w-full -top-32 z-0 hidden md:flex"
       />
       <Image
           src="/Dots.png"
           alt=" "
           height={1000}
           width={1000}
-          className="absolute w-full top-40 z-20 hidden lg:flex px-40 pointer-events-none levitate-bubbles2"
+          className="absolute w-full top-40 z-20 hidden md:flex px-40 pointer-events-none levitate-bubbles2"
       />
       <div className="gap-16 flex flex-wrap w-full justify-center z-10">
         {partnersData.map((p, index) => (
