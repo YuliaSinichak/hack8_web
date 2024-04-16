@@ -8,6 +8,7 @@ import AboutHack from "@/components/AboutHack";
 import Theme from "@/components/Theme";
 import AboutBest from "@/components/AboutBest";
 import Team from "@/components/Team";
+import Gallery from "@/components/Gallery";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <AboutBest />
       <Team />
       <Portrait />
+      <Gallery />
       <PartnersSection />
       <Contacts />
       <Footer />

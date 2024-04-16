@@ -5,7 +5,7 @@ import CodeRunReverse from "./CodeRunEffectReverse"
 
 export default function Theme(){
     return(
-        <section className="relative w-full min-h-screen z-10" id='theme'>
+        <section className="relative w-full min-h-screen z-10 px-5" id='theme'>
             <div className="hidden lg:flex absolute z-0">
                 <CodeRun />
             </div>

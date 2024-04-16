@@ -43,7 +43,7 @@ const Partner = ({
 
 export default function MainPartners() {
   return (
-    <section className="flex flex-col items-center justify-center max-w-7xl w-full py-10 lg:py-20 px-6 mx-auto gap-8 lg:gap-14 mt-30 lg:mt-64">
+    <section className="flex flex-col items-center justify-center max-w-7xl w-full py-10 lg:py-20 px-6 mx-auto gap-8 lg:gap-14 mt-30">
       <h2
         className={`${press_start.className} text-hack-green text-2xl lg:text-4xl my-2 text-center`}
       >
