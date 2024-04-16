@@ -76,77 +76,77 @@ export default function Team() {
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="Tetiana.png" alt="tania" className='rounded-xl'/>
-                        <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Main Organizer</h1>
+                        <h1 className={`${press_start.className} text-xl text-white lg:text-2xl text-center `}>Main Organizer</h1>
                         <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Тетяна Панчук</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="Vanya.png" alt="vanya" className='rounded-xl'/>
-                        <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Human Resourses</h1>
+                        <h1 className={`${press_start.className} text-xl text-white lg:text-2xl text-center `}>Human Resourses</h1>
                         <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Іванка Карабан</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="Rostik.png" alt="rostik" className='rounded-xl'/>
-                        <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Logist</h1>
+                        <h1 className={`${press_start.className} text-xl text-white lg:text-2xl text-center `}>Logist</h1>
                         <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Ростислав Мінчак</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="Roman.png" alt="roma" className='rounded-xl'/>
-                        <h1 className={`${press_start.className} text-lg lg:text-xl text-center `}>Content Responsible</h1>
+                        <h1 className={`${press_start.className} text-lg text-white lg:text-xl text-center `}>Content Responsible</h1>
                         <h1 className={`${press_start.className} text-hack-green text-md lg:text-lg text-center `}>Роман Фігель</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="Yulik.png" alt="yulik" className='rounded-xl'/>
-                        <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>IT Responsible</h1>
+                        <h1 className={`${press_start.className} text-xl text-white lg:text-2xl text-center `}>IT Responsible</h1>
                         <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Юлія Синичак</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="Illia.png" alt="illia" className='rounded-xl'/>
-                        <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>FundRaising</h1>
+                        <h1 className={`${press_start.className} text-xl text-white lg:text-2xl text-center `}>FundRaising</h1>
                         <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Ілля Шестак</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="Maria.png" alt="maria" className='rounded-xl'/>
-                        <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>FundRaising</h1>
+                        <h1 className={`${press_start.className} text-xl text-white lg:text-2xl text-center `}>FundRaising</h1>
                         <h1 className={`${press_start.className} text-hack-green text-lg lg:text-xl text-center `}>Марія Зарванська</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="Sasha.png" alt="sasha" className='rounded-xl'/>
-                        <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Public Relations</h1>
+                        <h1 className={`${press_start.className} text-xl text-white lg:text-2xl text-center `}>Public Relations</h1>
                         <h1 className={`${press_start.className} text-hack-green text-lg lg:text-x text-center `}>Олександра Оленчук</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="Vika.png" alt="vika" className='rounded-xl'/>
-                        <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Design</h1>
+                        <h1 className={`${press_start.className} text-xl text-white lg:text-2xl text-center `}>Design</h1>
                         <h1 className={`${press_start.className} text-hack-green text-lg lg:text-x text-center `}>Вікторія Бодоряк</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="Zakhar.png" alt="zakhar" className='rounded-xl'/>
-                        <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Mentor</h1>
+                        <h1 className={`${press_start.className} text-xl text-white lg:text-2xl text-center `}>Mentor</h1>
                         <h1 className={`${press_start.className} text-hack-green text-lg lg:text-x text-center `}>Захар Підлісецький</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=" ">
                     <div className='border p-4 py-8 rounded-xl mx-5 flex flex-col justify-between items-center h-[500px] gap-3'>
                         <img src="Bodya.png" alt="bodya" className='rounded-xl'/>
-                        <h1 className={`${press_start.className} text-xl lg:text-2xl text-center `}>Mentor</h1>
+                        <h1 className={`${press_start.className} text-xl text-white lg:text-2xl text-center `}>Mentor</h1>
                         <h1 className={`${press_start.className} text-hack-green text-lg lg:text-x text-center `}>Богдан Баран</h1>
                     </div>
                 </SwiperSlide>

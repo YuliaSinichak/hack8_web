@@ -43,7 +43,7 @@ export default function AboutHack(){
                         className="hidden lg:flex absolute levitate-bubbles2 -bottom-8 -right-24 z-40"
                     />
                     <div className="border rounded-xl bg-black px-10 p-3 z-10">
-                        <div className="font-semibold p-5 text-left hover:scale-102 duration-500 text-sm lg:text-xl">
+                        <div className="font-semibold p-5 text-left hover:scale-102 duration-500 text-sm lg:text-xl text-white">
                         <span className="text-hack-green pr-1 texl-xl relative">
                             <Image
                                 src="/Arrow.svg"
@@ -60,17 +60,17 @@ export default function AboutHack(){
                         </div>
                     </div>
                     <div className="border rounded-xl bg-black px-10 p-3 z-10">
-                        <div className=" font-extrabold p-5 text-center hover:scale-102 duration-500 text-sm lg:text-xl">
+                        <div className=" font-extrabold p-5 text-center text-white hover:scale-102 duration-500 text-sm lg:text-xl">
                             11-12 травня
                         </div>
                     </div>
                     <div className="border rounded-xl bg-black px-10 p-3 z-10">
-                        <div className=" font-extrabold p-5 text-center hover:scale-102 duration-500 text-sm lg:text-xl">
+                        <div className=" font-extrabold p-5 text-center text-white hover:scale-102 duration-500 text-sm lg:text-xl">
                             offline
                         </div>
                     </div>
                     <div className="border rounded-xl bg-black px-10 p-3 z-10">
-                        <div className=" font-extrabold p-5 text-center hover:scale-102 duration-500 text-sm lg:text-xl">
+                        <div className=" font-extrabold p-5 text-center text-white hover:scale-102 duration-500 text-sm lg:text-xl">
                             15 команд (3-5 осіб)
                         </div>
                     </div>

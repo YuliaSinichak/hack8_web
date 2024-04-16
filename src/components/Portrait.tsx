@@ -21,7 +21,7 @@ export default function Portrait(){
             />
             
             <div className="flex flex-col xl:flex-row px-10 lg:px-20 gap-5 xl:gap-16 items-center xl:items-start z-10">
-                <h1 className={`${press_start.className} text-3xl max-w-xs xl:ml-80 text-center xl:text-left`}>Портрет учасника</h1>
+                <h1 className={`${press_start.className} text-3xl max-w-xs xl:ml-80 text-center text-white xl:text-left`}>Портрет учасника</h1>
                 <div className=" xl:-rotate-90">
                 <Image
                     src="/DrawArrow.svg"
@@ -32,7 +32,7 @@ export default function Portrait(){
                 />
                 </div>
                 <div className="border bg-black rounded-xl p-3 flex items-center max-w-sm mt-3 lg:mt-10 relative">
-                    <div className=" bg-hack-dark-green rounded-xl p-5 py-12 text-lg text-center flex items-center  hover:scale-102 duration-500">
+                    <div className=" bg-hack-dark-green text-white rounded-xl p-5 py-12 text-lg text-center flex items-center  hover:scale-102 duration-500">
                         <p>
                             Для креативної та ініціативної молоді, що зацікавлена розвиватись в IT
                         </p>

@@ -110,7 +110,7 @@ export default function Theme(){
                 className="hidden xl:flex absolute levitate-bubbles1 left-24 top-48 z-30"
             />
             
-            <div className="hidden lg:flex absolute bottom-0 right-0">
+            <div className="hidden lg:flex absolute -bottom-24 right-0">
             <CodeRunReverse />
             </div>
             <Image
