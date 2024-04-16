@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function Portrait(){
     return(
-        <section className=" relative w-full my-20">
+        <section className=" relative w-full my-32">
             <Image
                 src="/BubblesPart1.png"
                 width={600}
@@ -21,7 +21,7 @@ export default function Portrait(){
             />
             
             <div className="flex flex-col xl:flex-row px-10 lg:px-20 gap-5 xl:gap-16 items-center xl:items-start z-10">
-                <h1 className={`${press_start.className} text-3xl max-w-xs xl:ml-80 text-center text-white xl:text-left`}>Портрет учасника</h1>
+                <h1 className={`${press_start.className} text-4xl max-w-xs xl:ml-80 text-center text-white xl:text-left`}>Портрет учасника</h1>
                 <div className=" xl:-rotate-90">
                 <Image
                     src="/DrawArrow.svg"
@@ -32,7 +32,7 @@ export default function Portrait(){
                 />
                 </div>
                 <div className="border bg-black rounded-xl p-3 flex items-center max-w-sm mt-3 lg:mt-10 relative">
-                    <div className=" bg-hack-dark-green text-white rounded-xl p-5 py-12 text-lg text-center flex items-center  hover:scale-102 duration-500">
+                    <div className=" text-white rounded-xl p-5 py-12 font-semibold text-lg text-center flex items-center  hover:scale-102 duration-500">
                         <p>
                             Для креативної та ініціативної молоді, що зацікавлена розвиватись в IT
                         </p>
@@ -76,11 +76,11 @@ export default function Portrait(){
                 className="hidden xl:flex absolute top-12 left-20 pointer-events-none"
             />
             <Image
-                src="/EllipsePortrait.png"
+                src="/DualGradient.png"
                 width={900}
                 height={900}
                 alt=" "
-                className="hidden xl:flex absolute -top-52 right-0 pointer-events-none"
+                className="hidden xl:flex absolute -top-24 -left-16 pointer-events-none"
             />
             <Image
                 src="/BubbleDraw.png"
