@@ -37,11 +37,11 @@ export default function Contacts(){
                 className="hidden xl:flex absolute top-12 right-20"
             />
             <Image
-                src="/Circle.png"
-                width={600}
-                height={600}
+                src="/DualGradient.png"
+                width={750}
+                height={750}
                 alt=" "
-                className="hidden xl:flex absolute top-12 right-24"
+                className="hidden xl:flex absolute top-12 right-12 -rotate-12"
             />
         </section>
     )

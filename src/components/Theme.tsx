@@ -19,12 +19,19 @@ export default function Theme(){
                         </p>
                 </div>
                 <div className="flex border bg-black rounded-xl p-3 items-center max-w-sm mt-3 lg:mt-10 lg:relative">
-                    <div className=" bg-hack-dark-green text-white rounded-xl lg:p-5 py-12 text-center items-center text-md hover:scale-102 duration-500 flex flex-col">
-                            <p className="text-hack-green">
-                            На меті учасників – створення MVP 
+                    <Image
+                        src="/BenyaTheme.png"
+                        width={150}
+                        height={150}
+                        alt=" "
+                        className="hidden lg:flex absolute -top-28 -left-8 pointer-events-none levitate-bubbles2"
+                    />   
+                    <div className=" text-white font-semibold rounded-xl p-5 py-5 lg:py-7 text-left text-md hover:scale-102 duration-500 flex flex-col">
+                            <p className="text-hack-green text-2xl">
+                            На меті учасників –
                             </p>
                             <p>
-                            (Minimal Viable Product) інноваційної онлайн-платформи, яка стане в нагоді
+                            створення MVP (Minimal Viable Product) інноваційної онлайн-платформи, яка стане в нагоді
                             у цей непростий час для допомоги військовим/цивільним на окупованих територіях.
                             </p>
                     </div>
@@ -35,6 +42,7 @@ export default function Theme(){
                     alt=" "
                     className="hidden lg:flex absolute -bottom-80 -left-72 pointer-events-none w-48"
                     />   
+                     
                     <Image
                     src="/TalkBubble.png"
                     width={500}
@@ -72,13 +80,7 @@ export default function Theme(){
                     alt=" "
                     className="hidden xl:flex absolute bottom-40 left-24 pointer-events-none w-96 z-20"
             />   
-            <Image
-                    src="/Line.png"
-                    width={500}
-                    height={500}
-                    alt=" "
-                    className="hidden xl:flex absolute bottom-8 left-24 pointer-events-none w-96 z-10"
-            />   
+           
             <Image
                     src="/Circle.png"
                     width={1000}
@@ -111,6 +113,20 @@ export default function Theme(){
             <div className="hidden lg:flex absolute bottom-0 right-0">
             <CodeRunReverse />
             </div>
+            <Image
+                    src="/ThemeGradient.png"
+                    width={750}
+                    height={750}
+                    alt=" "
+                    className="hidden xl:flex absolute -bottom-32 left-0 pointer-events-none z-10"
+            />   
+             <Image
+                    src="/DualGradient.png"
+                    width={750}
+                    height={750}
+                    alt=" "
+                    className="hidden lg:flex absolute -bottom-32 right-80 pointer-events-none"
+                    /> 
         </section>
     )
 }

@@ -43,7 +43,7 @@ export default function AboutHack(){
                         className="hidden lg:flex absolute levitate-bubbles2 -bottom-8 -right-24 z-40"
                     />
                     <div className="border rounded-xl bg-black px-10 p-3 z-10">
-                        <div className="font-semibold p-5 text-center hover:scale-102 duration-500 text-sm lg:text-md">
+                        <div className="font-semibold p-5 text-left hover:scale-102 duration-500 text-sm lg:text-xl">
                         <span className="text-hack-green pr-1 texl-xl relative">
                             <Image
                                 src="/Arrow.svg"
@@ -83,11 +83,11 @@ export default function AboutHack(){
                         className="hidden xl:flex absolute -top-96 -right-64 z-0 pointer-events-none"
                 />
                 <Image
-                        src="/Line.png"
+                        src="/AboutHackGradient.png"
                         width={500}
                         height={500}
                         alt=" "
-                        className="hidden xl:flex absolute top-24 right-40 z-10 pointer-events-none"
+                        className="hidden xl:flex absolute top-24 right-36 z-10 pointer-events-none animate-pulse"
                 />
                 <Image
                         src="/AboutHack.png"

@@ -113,7 +113,7 @@ export default function Hero(){
                 width={400}
                 height={400}
                 alt=" "
-                className="absolute -top-20 self-center pointer-events-none z-10 levitate-bubbles2"
+                className="hidden md:flex absolute -top-20 self-center pointer-events-none z-10 levitate-bubbles2"
             />
             <Image
                 src="/BubblesPart1.png"
