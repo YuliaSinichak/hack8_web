@@ -43,14 +43,14 @@ export default function Theme(){
                     className="hidden lg:flex absolute -bottom-40 -left-16 pointer-events-none w-24 "
                     />   
                     <Image
-                        src="/BubbleDraw.svg"
+                        src="/BubbleDraw.png"
                         width={60}
                         height={60}
                         alt=" "
                         className="hidden xl:flex absolute levitate-bubbles1 left-24 -bottom-32 z-30"
                     />
                     <Image
-                        src="/BubbleDraw.svg"
+                        src="/BubbleDraw.png"
                         width={40}
                         height={40}
                         alt=" "
@@ -87,21 +87,21 @@ export default function Theme(){
                     className="hidden xl:flex absolute -bottom-72 -left-64 pointer-events-none z-0"
             />   
             <Image
-                src="/BubbleDraw.svg"
+                src="/BubbleDraw.png"
                 width={60}
                 height={60}
                 alt=" "
                 className="hidden xl:flex absolute levitate-bubbles1 right-8 top-32 z-30"
             />
             <Image
-                src="/BubbleDraw.svg"
+                src="/BubbleDraw.png"
                 width={60}
                 height={60}
                 alt=" "
                 className="hidden xl:flex absolute levitate-bubbles2 right-20 top-48 z-30"
             />
             <Image
-                src="/BubbleDraw.svg"
+                src="/BubbleDraw.png"
                 width={40}
                 height={40}
                 alt=" "

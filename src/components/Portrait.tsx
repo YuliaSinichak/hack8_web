@@ -38,28 +38,28 @@ export default function Portrait(){
                         </p>
                     </div>
                     <Image
-                        src="/BubbleDraw.svg"
+                        src="/BubbleDraw.png"
                         width={60}
                         height={60}
                         alt=" "
                         className="absolute levitate-bubbles2 -left-8 -top-8 xl:-left-32 xl:-top-40"
                     />
                     <Image
-                        src="/BubbleDraw.svg"
+                        src="/BubbleDraw.png"
                         width={40}
                         height={40}
                         alt=" "
                         className="absolute levitate-bubbles1 -left-12 -top-12 xl:-left-24 xl:-top-24"
                     />
                     <Image
-                        src="/BubbleDraw.svg"
+                        src="/BubbleDraw.png"
                         width={40}
                         height={40}
                         alt=" "
                         className="absolute levitate-bubbles2 -right-16 -bottom-12 xl:-left-24 xl:-bottom-24"
                     />
                     <Image
-                        src="/BubbleDraw.svg"
+                        src="/BubbleDraw.png"
                         width={60}
                         height={60}
                         alt=" "
@@ -83,7 +83,7 @@ export default function Portrait(){
                 className="hidden xl:flex absolute -top-52 right-0 pointer-events-none"
             />
             <Image
-                src="/BubbleDraw.svg"
+                src="/BubbleDraw.png"
                 width={60}
                 height={60}
                 alt=" "

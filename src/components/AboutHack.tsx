@@ -15,28 +15,28 @@ export default function AboutHack(){
                         className="xl:hidden flex absolute w-auto z-0 pointer-events-none opacity-30"
                     />
                     <Image
-                        src="/BubbleDraw.svg"
+                        src="/BubbleDraw.png"
                         width={40}
                         height={40}
                         alt=" "
                         className="hidden lg:flex absolute levitate-bubbles1 -top-4 -right-80 z-40"
                     />
                     <Image
-                        src="/BubbleDraw.svg"
+                        src="/BubbleDraw.png"
                         width={80}
                         height={80}
                         alt=" "
                         className="hidden lg:flex absolute levitate-bubbles2 -top-8 -right-72 z-40"
                     />
                     <Image
-                        src="/BubbleDraw.svg"
+                        src="/BubbleDraw.png"
                         width={40}
                         height={40}
                         alt=" "
                         className="hidden lg:flex absolute levitate-bubbles1 bottom-24 -right-36 z-40"
                     />
                     <Image
-                        src="/BubbleDraw.svg"
+                        src="/BubbleDraw.png"
                         width={60}
                         height={60}
                         alt=" "
@@ -97,7 +97,7 @@ export default function AboutHack(){
                         className="hidden xl:flex absolute top-40 right-56 z-20"
                 />
                 <Image
-                        src="/BubbleDraw.svg"
+                        src="/BubbleDraw.png"
                         width={60}
                         height={60}
                         alt=" "
