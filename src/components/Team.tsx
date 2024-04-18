@@ -18,12 +18,12 @@ export default function Team() {
     const [curr, setCurr] = useState(1);
 
     return (
-        <div className="min-h-screen w-full py-20" id='team'>
-            <div className='absolute'>
+        <div className="min-h-screen relative w-full py-20" id='team'>
+            <div className='absolute -top-12 z-0'>
                 <CodeRun />
             </div>
             <h2 className={`${press_start.className} relative text-hack-green text-3xl z-10 text-center lg:text-end my-20 mr-10`}>Команда організаторів:</h2>
-            <div className='border-2 border-hack-green border-l-0 border-r-0 py-5'>
+            <div className='border-2 border-hack-green border-l-0 border-r-0 py-5 z-10'>
             <Swiper
                 className='w-full flex items-center relative z-10 h-64'
                 autoHeight={true}
@@ -67,7 +67,7 @@ export default function Team() {
                         spaceBetween: -5
                     },
                     1800: {
-                        slidesPerView: 5,
+                        slidesPerView: 6,
                         spaceBetween: -5
                     }
                 }}
