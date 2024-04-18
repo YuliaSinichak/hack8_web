@@ -131,7 +131,7 @@ export default function Registration (){
                         width={250}
                         className="flex lg:absolute left-0 xl:left-24 -top-96 self-center z-0"
                     />
-                    <button className=' uppercase border p-5 px-20 rounded-xl text-xl hover:scale-105 duration-500 hover:animate-none animate-pulse'  onClick={redirectToSite}>
+                    <button className=' uppercase border p-5 px-20 rounded-xl text-xl hover:scale-105 duration-500 hover:animate-none text-white animate-pulse'  onClick={redirectToSite}>
                     Реєстрація_
                     </button>
                 </div>
