@@ -22,7 +22,7 @@ export default function Team() {
             <div className='absolute -top-12 z-0'>
                 <CodeRun />
             </div>
-            <h2 className={`${press_start.className} relative text-hack-green text-3xl z-10 text-center lg:text-end my-20 mr-10`}>Команда організаторів:</h2>
+            <h2 className={`${press_start.className} relative text-hack-green text-xl lg:text-3xl z-10 text-center lg:text-end my-20  mx-5 lg:mr-10`}>Команда організаторів:</h2>
             <div className='border-2 border-hack-green border-l-0 border-r-0 py-5 z-10'>
             <Swiper
                 className='w-full flex items-center relative z-10 h-64'
