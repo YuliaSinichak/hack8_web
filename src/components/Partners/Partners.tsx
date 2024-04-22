@@ -6,8 +6,6 @@ export default function PartnersSection() {
     return (
         <>
         <MainPartners />
-        <LongTermPartners />
-        <Support />
         </>
     );
   }

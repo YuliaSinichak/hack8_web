@@ -7,12 +7,16 @@ const partnersData = [
     alt: "softserve",
   },
   {
-    imgSrc: "/partners/keenethics.svg",
-    alt: "keenethics",
+    imgSrc: "/partners/TeamVoy.svg",
+    alt: "TeamVoy",
   },
   {
     imgSrc: "/partners/sombra.svg",
     alt: "Sombra",
+  },
+  {
+    imgSrc: "/partners/Leobit.svg",
+    alt: "Leobit",
   },
 ];
 
