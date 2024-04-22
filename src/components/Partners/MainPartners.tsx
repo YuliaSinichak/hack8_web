@@ -18,6 +18,10 @@ const partnersData = [
     imgSrc: "/partners/Leobit.svg",
     alt: "Leobit",
   },
+  {
+    imgSrc: "/partners/tsukat.svg",
+    alt: "Tsukat",
+  },
 ];
 
 const Partner = ({
