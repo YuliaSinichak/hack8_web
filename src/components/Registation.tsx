@@ -61,7 +61,7 @@ interface TimerProps {
   }
 
 export default function Registration (){
-    const deadline = new Date('2024-04-21T00:00:00');
+    const deadline = new Date('2024-04-24T00:00:00');
     const redirectToSite = () => {
         window.location.href = 'https://t.me/Hackath0n8_bot';
       };
