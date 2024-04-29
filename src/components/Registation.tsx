@@ -114,7 +114,7 @@ export default function Registration (){
                 <div className={`relative flex border rounded-xl bg-black z-10 text-hack-green p-5 mx-8 text-sm lg:text-lg items-center justify-center`}>
                     <Timer deadline={deadline} />
                     <span className='text-white font-semibold text-lg absolute xl:-left-48 -top-8 lg:-top-12 font-mono'>
-                      До кінця реєстрації:
+                      До початку проєкту:
                     </span>
                     <Image
                     src="/DrawArrow.svg"
