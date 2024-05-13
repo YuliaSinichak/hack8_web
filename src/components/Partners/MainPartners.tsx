@@ -22,6 +22,14 @@ const partnersData = [
     imgSrc: "/partners/tsukat.svg",
     alt: "Tsukat",
   },
+  {
+    imgSrc: "/partners/GlobalLogic.svg",
+    alt: "GlobalLogic",
+  },
+  {
+    imgSrc: "/partners/CyberClub.svg",
+    alt: "CyberClub",
+  },
 ];
 
 const Partner = ({

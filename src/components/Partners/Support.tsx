@@ -3,48 +3,44 @@ import Image from "next/image";
 
 const partnersData = [
   {
-    imgSrc: "/partners/LionWood.svg",
-    alt: "LionWood",
+    imgSrc: "/partners/Bowls.svg",
+    alt: "Bowls",
   },
   {
-    imgSrc: "/partners/VRCube.svg",
-    alt: "VRCube",
+    imgSrc: "/partners/Donatello.svg",
+    alt: "Donatello",
   },
   {
     imgSrc: "/partners/Harvest.svg",
     alt: "Harvest",
   },
   {
-    imgSrc: "/partners/Vidro.svg",
-    alt: "Vidro",
+    imgSrc: "/partners/FilmCenter.svg",
+    alt: "FilmCenter",
   },
   {
-    imgSrc: "/partners/Lucas.svg",
-    alt: "Lucas",
+    imgSrc: "/partners/Hator.svg",
+    alt: "Hator",
   },
   {
-    imgSrc: "/partners/IloveKebab.svg",
-    alt: "IloveKebab",
+    imgSrc: "/partners/Logikum.svg",
+    alt: "Logikum",
   },
   {
-    imgSrc: "/partners/Chipsters.svg",
-    alt: "Chipsters",
+    imgSrc: "/partners/meleto.svg",
+    alt: "meleto",
   },
   {
-    imgSrc: "/partners/CopyBoom.svg",
-    alt: "CopyBoom",
+    imgSrc: "/partners/Sigma.svg",
+    alt: "Sigma",
   },
   {
     imgSrc: "/partners/Hobby.svg",
     alt: "HobbyMonster",
   },
   {
-    imgSrc: "/partners/EcoSfera.svg",
-    alt: "EcoSfera",
-  },
-  {
-    imgSrc: "/partners/Salalat.svg",
-    alt: "Salalat",
+    imgSrc: "/partners/Sova.svg",
+    alt: "Sova",
   },
   {
     imgSrc: "/partners/Nonstop.svg",
